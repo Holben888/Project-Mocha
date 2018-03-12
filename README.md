@@ -5,8 +5,8 @@
     * We do this since different python projects may need different versions of libraries, like Django
     
 * Run ```pip install django``` __after__ activating the environment
-* Run project using: ```python manage.py runserver``` and visite the URL that is displayed
+* Run project using: ```python project-mocha/manage.py runserver``` and visite the URL that is displayed
 
-__You may get a warning after running that you need to migrate.__ If so, simply execute: ```python manage.py migrate```
+__You may get a warning after running that you need to migrate.__ If so, simply execute: ```python project-mocha/manage.py migrate```
 
 ### That's all! Happy hacking :)
