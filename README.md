@@ -1,5 +1,8 @@
 ## Setting up the project
 
+__This assumes you already have Python and Virtualenv installed. Macs have a version of Python installed by default.__
+Install virtualenv using: ```pip install virtualenv```
+
 * Activate environment using: ```source django2env/bin/activate```
     * Once activated, you may now safely add libraries to the project without changing any files on your machine
     * We do this since different python projects may need different versions of libraries, like Django
