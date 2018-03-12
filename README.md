@@ -1,14 +1,12 @@
 ## Setting up the project
 
-When cloning this repository, clone it into some parent folder titled whatever you like (would recommend this repository name, "Project-Mocha")
-
-Set up your python virtual environment in the folder you just cloned this repository to. This allows you to add libraries to this Django project without affecting any files outside of this project.
-To do so, follow these steps:
-* Install virtualenv for the project using: sudo easy_install virtualenv (look up windows equivalent if needed)
-* Create virtual environment within project folder using: virtualenv [ENV_NAME]
-* Activate environment using: source [ENV_NAME]/bin/activate
-    * Once activated, you may now safely run terminal commands on the project and run it
+* Activate environment using: ```source django2env/bin/activate```
+    * Once activated, you may now safely add libraries to the project without changing any files on your machine
+    * We do this since different python projects may need different versions of libraries, like Django
     
-Run using: python manage.py runserver
+* Run ```pip install django``` __after__ activating the environment
+* Run project using: ```python manage.py runserver``` and visite the URL that is displayed
+
+__You may get a warning after running that you need to migrate.__ If so, simply execute: ```python manage.py migrate```
 
 ### That's all! Happy hacking :)
